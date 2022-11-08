@@ -21,11 +21,19 @@ mobileNav.addEventListener("click", function () {
 
 document.addEventListener("DOMContentLoaded", function (event) {
   let animations = [
-    "animate__animated animate__fadeInRight animate__slow",
-    "animate__animated animate__fadeIn animate__slow",
-    "animate__animated animate__fadeIn animate__slow animate__delay-1s",
-    "animate__animated animate__fadeIn animate__slow animate__delay-2s",
-    "animate__animated animate__fadeIn animate__slow animate__delay-3s",
+    "animate__animated animate__fadeInUp",
+    "animate__animated animate__fadeInUp",
+    "animate__animated animate__fadeInUp",
+    "animate__animated animate__fadeInUp",
+    "animate__animated animate__fadeInUp",
+    "animate__animated animate__fadeInUp",
+    "animate__animated animate__fadeInUp",
+    "animate__animated animate__fadeInUp",
+    "animate__animated animate__fadeInUp animate__delay-1s",
+    "animate__animated animate__fadeInUp animate__delay-2s",
+    "animate__animated animate__fadeInUp",
+    "animate__animated animate__fadeInUp",
+    "animate__animated animate__fadeInUp",
   ];
   document.addEventListener("scroll", function (event) {
     const animatedElements =

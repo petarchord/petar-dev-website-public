@@ -727,6 +727,12 @@ footer {
   height: auto;
 }
 
+/* Animated overrides */
+
+/* :root {
+  --animate-delay: 0.25s;
+} */
+
 /* media queries */
 
 @media screen and (min-width: 320px) {
