@@ -224,11 +224,6 @@ li svg:hover path:nth-child(2) {
   padding: 2rem;
 }
 
-/* .tech-visuals {
-  width: 50%;
-  position: relative;
-} */
-
 .caption h1 {
   font-size: 1.8rem;
 }
@@ -260,7 +255,7 @@ li svg:hover path:nth-child(2) {
   cursor: pointer;
 }
 
-.read-more-button {
+/* .read-more-button {
   width: 0;
   background-color: burlywood;
 }
@@ -268,6 +263,15 @@ li svg:hover path:nth-child(2) {
 .read-more-button:hover {
   animation: loading-hover-button 0.4s;
   animation-fill-mode: forwards;
+} */
+
+.read-more-button {
+  width: 14rem;
+  background-color: transparent;
+}
+
+.read-more-button:active {
+  background-color: burlywood;
 }
 
 .about-wrapper {
@@ -444,9 +448,6 @@ li svg:hover path:nth-child(2) {
   transform: translateX(7rem);
   transform: rotate(90deg) translate(2.5rem, 2rem);
   width: 5rem;
-}
-
-.first-circle {
 }
 
 .first-line {
@@ -809,6 +810,16 @@ footer {
     margin: 20% 0 0 9%;
   }
 
+  .read-more-button {
+    width: 0;
+    background-color: burlywood;
+  }
+
+  .read-more-button:hover {
+    animation: loading-hover-button 0.4s;
+    animation-fill-mode: forwards;
+  }
+
   .about-wrapper {
     padding: 6rem 0;
   }
@@ -816,6 +827,11 @@ footer {
   .about-wrapper img {
     width: 17.5rem;
     height: 27.5rem;
+  }
+
+  .polygon-layer {
+    top: 2rem;
+    left: 2rem;
   }
 
   .description-wrapper {
@@ -908,7 +924,7 @@ footer {
     width: 0;
   }
   100% {
-    width: 10rem;
+    width: 14rem;
   }
 }
 
